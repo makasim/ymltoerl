@@ -4,8 +4,7 @@ git:
 language: go
 
 env:
-  - GOFLAGS=-mod=vendor
-  - GO111MODULE=on
+  - GOFLAGS=-mod=vendor GO111MODULE=on
 
 install:
   - go mod tidy
