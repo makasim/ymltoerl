@@ -1,14 +1,4 @@
-git:
-  depth: 10
-
 language: go
-
-env:
-  - GOFLAGS=-mod=vendor GO111MODULE=on
-
-install:
-  - go mod tidy
-  - go mod vendor
 
 script:
   - go test -v
