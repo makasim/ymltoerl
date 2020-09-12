@@ -7,7 +7,7 @@ import (
 
 	"path/filepath"
 
-	"git.corezoid.com/go-pkgs/ymltoerl"
+	"github.com/makasim/ymltoerl"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

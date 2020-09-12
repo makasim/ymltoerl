@@ -1,0 +1,11 @@
+git:
+  depth: 10
+
+language: go
+
+install:
+  - go mod tidy
+  - go mod vendor
+
+script:
+  - go test -v
