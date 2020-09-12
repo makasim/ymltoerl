@@ -1,0 +1,16 @@
+-
+    - !atom foo 
+    - !!binary foo
+    - foo 
+    - 123
+    - 123.4
+    - true
+    - false
+-
+    - !atom foo
+    - !!binary foo
+    - foo 
+    - 123
+    - 123.4
+    - true
+    - false

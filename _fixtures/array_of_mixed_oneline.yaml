@@ -1,0 +1,1 @@
+[ "foo", !!binary "bar", !atom "baz", 123, 123.4, true, false ]

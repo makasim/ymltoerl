@@ -1,0 +1,16 @@
+-
+    prop1: foo
+    prop2: !!binary bar
+    prop3: !atom baz
+    prop4: 123
+    prop5: 456.7
+    prop6: true
+    prop7: false
+-
+    prop1: foo
+    prop2: !!binary bar
+    prop3: !atom baz
+    prop4: 123
+    prop5: 456.7
+    prop6: true
+    prop7: false
