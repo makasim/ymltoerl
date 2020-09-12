@@ -1,6 +1,6 @@
 module github.com/makasim/ymltoerl
 
-go 1.10
+go 1.12
 
 require (
 	github.com/stretchr/testify v1.6.1
