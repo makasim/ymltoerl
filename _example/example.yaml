@@ -1,0 +1,25 @@
+array:
+    - "string"
+    - !!binary "binary_string"
+    - !atom "atom"
+    - 123
+    - 456.7
+    - true
+    - false
+    - null
+    - {"foo": "fooVal", "bar": !atom "barVal" }
+    -
+        foo: fooVal
+        bar: !atom barVal
+
+object:
+    a_string: "string"
+    a_binray_string: !!binary "binary_string"
+    an_atom: !atom "atom"
+    an_int: 123
+    a_float: 456.7
+    a_bool1: true
+    a_bool2: false
+    a_nil: null
+    an_array: ["foo", !!binary "baz", !atom "bar" ]
+    a_tuple: !tuple ["foo", !!binary "baz", !atom "bar" ]
