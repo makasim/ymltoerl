@@ -66,7 +66,9 @@ becomes Erlang config:
 
 * Go get
 ```bash
-go get github.com/makasim/erltoyml/main
+git clone https://github.com/makasim/ymltoerl.git
+cd ymltoerl
+go build -o ymltoerl ./main/main.go
 ```
 
 ## Usage
